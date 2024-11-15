@@ -2,10 +2,16 @@
 #include <string.h>
 #include <stdio.h>
 #include <limits.h>
-#include <stddef.h>
 #include <ctype.h>
+#include <stdint.h>
 
 #include "strings.h"
+
+struct String_S {
+    size_t size;
+    size_t len;
+    char *chars;
+} ;
 
 size_t size_of_utf8(char *s)
 {

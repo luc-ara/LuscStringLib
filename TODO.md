@@ -1,0 +1,21 @@
+# Upcoming Tasks
+
+[ ] size_string()
+[ ] len_string()
+[ ] test new_string()
+[ ] test print_string()
+[ ] test dup_string()
+[ ] test concat_string()
+[ ] test find_string()
+[ ] test take_string()
+[ ] test drop_string()
+[ ] test len_string()
+[ ] test compare_string()
+[ ] test substring()
+[ ] test to_upper()
+[ ] test to_lower()
+
+[ ] write and test trim()
+[ ] write and test reverse()
+[ ] write and test pad_left()
+[ ] write and test pad_right()

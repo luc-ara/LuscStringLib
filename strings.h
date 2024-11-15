@@ -1,17 +1,15 @@
 #ifndef STRINGS_H
 #define STRINGS_H
 
-#include <stdint.h>
+#include <stddef.h>
 
-typedef struct String_S
-{
-    size_t size;
-    size_t len;
-    char *chars;
-} String_T ;
+typedef struct String_S String_T ;
 
 size_t size_of_utf8(char *s);
 size_t count_utf8(char *s);
+
+size_t size_string(String_T *s);
+size_t len_string(String_T *s);
 
 String_T *new_string(char *s);
 

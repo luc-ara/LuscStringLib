@@ -1,0 +1,8 @@
+//ignore vscode stuff
+./vscode/*
+
+//ignore object files
+*.o
+
+//ignore test executable
+test
