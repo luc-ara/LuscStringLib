@@ -1,11 +1,13 @@
 #include <stdio.h>
+#include <string.h>
+#include <locale.h>
+
 #include "strings.h"
 
 int main(void)
 {
+    setlocale(LC_CTYPE, "en_US.UTF-8");
     //write tests here
-
-    printf("%zu\n", count_utf8("a\u20AC\U0001F600\U0001F600\U0001F600\U0001F600"));
 
     return 0;
 }
